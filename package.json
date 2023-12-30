@@ -1,0 +1,27 @@
+{
+  "name": "openinapp-challenge",
+  "version": "1.0.0",
+  "description": "a Node.js based app that is able to respond to emails sent to your Gmail mailbox while you’re out on a vacation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugauniyal/openinapp-challenge.git"
+  },
+  "author": "Utkarsh Gauniyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugauniyal/openinapp-challenge/issues"
+  },
+  "homepage": "https://github.com/ugauniyal/openinapp-challenge#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
